@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Dọn mâm cỗ</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍜</text></svg>" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header>
+      <span id="level"></span>
+      <div class="tools">
+        <button id="undo" title="Hoàn tác">↶</button>
+        <button id="hint" title="Gợi ý">💡</button>
+        <button id="add" title="Thêm khay">＋</button>
+        <button id="restart" title="Chơi lại">⟲</button>
+      </div>
+    </header>
+    <main id="board"></main>
+    <div id="win" hidden>
+      <div class="card">
+        <p>Dọn xong mâm!</p>
+        <button id="next">Màn tiếp</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
